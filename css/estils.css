@@ -55,14 +55,29 @@ p{
 .centro-1{
     display: flex;
 }
+.centro-2 {
+    display: flex;
+}
 .apartados-green {
     margin-left: 2%;
 }
-.casillas-green {
+.casilla-green {
     background-color:  rgb(3, 82, 5);
     color: white;
+    display: flex;
+    border-bottom: 10px solid white;
+    width: 125%
 }
 .txt-centro {
     margin-left: 7%;
     width: 56%;
+    margin-right: 8.5%;
+}
+.linea-ventas {
+    margin-left: 2%;
+}
+.txt-green {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
 }
