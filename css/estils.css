@@ -1,0 +1,68 @@
+html{
+    font-family: 'Courier Prime', monospace;
+    
+}
+body{
+    margin: 0%;
+}
+p{
+    font-size: 17px;
+}
+.encabezado {
+    background-color: rgb(0, 53, 0);
+    color: white;
+    display: flex;
+}
+.txt-encabezado {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    font-size: 17px;
+}
+.cuerpo {
+    text-align: center;
+    width: 55%;
+    margin-left: 22.5%;
+}
+.titulo-cuerpo {
+    font-size: 70px;
+}
+.subtitulo-cuerpo {
+    font-size: 17px;
+    margin-bottom: 7%;
+}
+.linea-botones {
+    display: flex;
+    border-bottom: solid 2px rgb(210, 98, 0);
+    width: 70%;
+}
+.boton-1 {
+    background-color: rgb(210, 98, 0);
+    width: 10%;
+    color: white;
+}
+.boton-1-margen {
+    text-align: center;
+}
+.boton-2 {
+    width: 10%;
+    text-align: center;
+}
+.boton-3 {
+    width: 10%;
+    text-align: center;
+}
+.centro-1{
+    display: flex;
+}
+.apartados-green {
+    margin-left: 2%;
+}
+.casillas-green {
+    background-color:  rgb(3, 82, 5);
+    color: white;
+}
+.txt-centro {
+    margin-left: 7%;
+    width: 56%;
+}
