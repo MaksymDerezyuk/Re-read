@@ -41,8 +41,18 @@ p{
     width: 10%;
     color: white;
 }
+.link {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
 .boton-1-margen {
     text-align: center;
+}
+a {
+    display: flex;
+    margin-top: 16%;
+    margin-left: 16%;
 }
 .boton-2 {
     width: 10%;
@@ -52,14 +62,26 @@ p{
     width: 10%;
     text-align: center;
 }
-.centro-1{
+.centro-1-70{
     display: flex;
+    flex-wrap: wrap;
 }
-.centro-2 {
+.centro-2-30 {
     display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    margin-left: 72%;
+    margin-top: -19%;
+}
+.centro-2-30-2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    margin-left: 72%;
+    margin-top: -42%;
 }
 .apartados-green {
-    margin-left: 2%;
+    margin-left: 0.6%;
 }
 .casilla-green {
     background-color:  rgb(3, 82, 5);
@@ -80,4 +102,72 @@ p{
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 5%;
+}
+.unlibro {
+    width: 33%;
+}
+.libros-precio {
+    display: flex;
+}
+
+@media screen and (max-width:768px){
+    .cuerpo {
+        width: 85%;
+        margin-left: 7.5%;
+    }
+    .linea-botones {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .boton-1, .boton-2, .boton-3 {
+        width: 100%;
+    }
+    .linea-ventas {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .txt-centro {
+        margin-left: 10%;
+        width: 100%;
+        margin-right: 10%;
+    }
+    .centro-2-30 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    .centro-2-30-2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    .casilla-green {
+        width: 100%;
+    }
+    .topventas {
+        width: 100%;
+    }
+    .apartados-green {
+        margin-top: 12%;
+        margin-left: -25%;
+        margin-right: -25%;
+        width: 101.9%;
+    }
+    a {
+        display: flex;
+        margin-top: 5%;
+        margin-bottom: 4%;
+        margin-left: 43%;
+    }
+    .unlibro {
+        width: 100%;
+    }
+    .imglibro {
+        width: 80%;
+    }
 }
