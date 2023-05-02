@@ -125,7 +125,9 @@ a {
 }
 .txtlibro {
     text-align: center;
-    margin-left: -30%;
+    margin-left: -5%;
+    font-size: 10px;
+    width: 75%;
 }
 
 @media screen and (max-width:768px){
@@ -201,6 +203,7 @@ a {
         margin-right: -10%;
     }
     .txtlibro {
-        margin-left: -20%;
+        margin-left: 5%;
+        margin-bottom: 10%;
     }
 }
